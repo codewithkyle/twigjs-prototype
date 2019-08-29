@@ -10,6 +10,12 @@
     <script>window.twig = Twig.twig;</script>
 
     <style>
+        *
+        {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
         body
         {
             margin: 0;
@@ -110,6 +116,11 @@
         }
 
         gradient-card div button:hover:after
+        {
+            transform: scaleX(0.66);
+        }
+
+        gradient-card div button:active:after
         {
             transform: scaleX(1);
         }
