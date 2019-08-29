@@ -1,0 +1,12 @@
+<gradients-grid>
+    {% for gradient in gradients %}
+        <gradient-card data-css="{{ gradient.css }}">
+            <header>{{ gradient.title }}</header>
+            <gradient-circle style="{{ gradient.css }}"></gradient-circle>
+            <div>
+                <span>{{ (gradient.colors) ? gradient.colors }}</span>
+                <button aria-label="Copy {{ gradient.title }} CSS to clipboard">Copy CSS</button>
+            </div>
+        </gradient-card>
+    {% endfor %}
+</gradients-grid>

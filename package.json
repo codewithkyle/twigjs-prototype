@@ -1,6 +1,6 @@
 {
   "name": "twigjs-prototype",
-  "description": "",
+  "description": "Experimenting with twig.js as a JavaScript templating language",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codewithkyle/twigjs-prototype.git"
@@ -13,6 +13,10 @@
   "homepage": "https://github.com/codewithkyle/twigjs-prototype#readme",
   "dependencies": {
     "http-server": "^0.11.1",
+    "twig": "^1.13.3",
     "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "preview": "http-server ./docs/"
   }
 }
