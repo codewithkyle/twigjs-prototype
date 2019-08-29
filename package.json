@@ -1,0 +1,18 @@
+{
+  "name": "twigjs-prototype",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithkyle/twigjs-prototype.git"
+  },
+  "author": "Kyle Andrews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewithkyle/twigjs-prototype/issues"
+  },
+  "homepage": "https://github.com/codewithkyle/twigjs-prototype#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^3.6.2"
+  }
+}
